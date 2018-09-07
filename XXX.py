@@ -6,6 +6,8 @@ Created on Fri Sep  7 12:37:50 2018
 """
 
 import random
+import sys
+
 
 def XXXX():
 
@@ -49,7 +51,7 @@ def XXXX():
         if a == 19:
             print ("I dare you to fuck me in a position we’ve never tried before.")
         if a == 20:
-            print ("I dare you to send me the dirtiest sext you can come up with.")
+            print ("I dare you to send me the dirtiest text you can come up with.")
         if a == 21:
             print ("I dare you to make me orgasm, just by using your hands.")
         if a == 22:
@@ -113,9 +115,11 @@ def XXXX():
         inp()
 
 def inp():
-    b = input("Please enter ROLL to choose dare ")
+    b = input("Please enter ROLL to choose dare  or END to end the game ")
     if b =="ROLL":
         XXXX()
+    if b == "END":
+        sys.exit(0)
         
 if __name__ == '__main__':
     inp()
